@@ -1,33 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="Wonders of the World.css">
-     <title>Wonders of the World</title>
-</head>
-<body>
+  <head>
+    <link rel="stylesheet" href="Wonders of the World.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/world-icon.jpg" type="image/x-icon">
+    <title>Wonders of the World</title>
+  </head>
+  <body>
     <div class="full">
-         <div class="menu">
+      <div class="menu">
         <div class="menu-text">
-            <p id="text" >Various lists of the Wonders of the World have been compiled from antiquity to the present day, in order to catalogue the world's most spectacular natural features and human-built structures.
-
-                The Seven Wonders of the Ancient World is the oldest known list of this type, documenting the most remarkable man-made creations of classical antiquity; it was based on guidebooks popular among Hellenic sightseers and as such only includes works located around the Mediterranean rim and in the ancient Near East. The number seven was chosen because the Greeks believed it represented perfection and plenty, and because it reflected the number of planets known in ancient times (five) plus the Sun and Moon
-           </p> 
+          <p id="text">
+            Various lists of the Wonders of the World have been compiled from
+            antiquity to the present day, in order to catalogue the world's most
+            spectacular natural features and human-built structures. The Seven
+            Wonders of the Ancient World is the oldest known list of this type,
+            documenting the most remarkable man-made creations of classical
+            antiquity; it was based on guidebooks popular among Hellenic
+            sightseers and as such only includes works located around the
+            Mediterranean rim and in the ancient Near East. The number seven was
+            chosen because the Greeks believed it represented perfection and
+            plenty, and because it reflected the number of planets known in
+            ancient times (five) plus the Sun and Moon
+          </p>
         </div>
-    </div>
-    <div class="names">
+      </div>
+      <div class="names">
         <ul>
-            <li><a href="#" id="wonder1" class="wonder1" onclick="x(1),T(0)">The Colosseum, in Rome</a></li>
-            <li><a href="#" id="wonder2" class="wonder2" onclick="x(2),T(1)">The Great Wall of China. </a></li>
-            <li><a href="#" id="wonder3" class="wonder3" onclick="x(3),T(2)">The Taj Mahal, India. </a></li>
-            <li><a href="#" id="wonder4" class="wonder4" onclick="x(4),T(3)">Christ the Redeemer, Brazil.</a></li>
-            <li><a href="#" id="wonder5" class="wonder5" onclick="x(5),T(4)">Machu Picchu, Peru. </a></li>
-            <li><a href="#" id="wonder6" class="wonder6" onclick="x(6),T(5)">Chichén Itzá, Mexico.</a></li>
-            <li><a href="#" id="wonder7" class="wonder7" onclick="x(7),T(6)">Petra, Jordan</a></li>
+          <li>
+            <a
+              href="#"
+              id="wonder1"
+              class="wonder1"
+              onclick="changeImg(1),changeContent(0)"
+              >The Colosseum, in Rome</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder2"
+              class="wonder2"
+              onclick="changeImg(2),changeContent(1)"
+              >The Great Wall of China.
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder3"
+              class="wonder3"
+              onclick="changeImg(3),changeContent(2)"
+              >The Taj Mahal, India.
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder4"
+              class="wonder4"
+              onclick="changeImg(4),changeContent(3)"
+              >Christ the Redeemer, Brazil.</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder5"
+              class="wonder5"
+              onclick="changeImg(5),changeContent(4)"
+              >Machu Picchu, Peru.
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder6"
+              class="wonder6"
+              onclick="changeImg(6),changeContent(5)"
+              >Chichén Itzá, Mexico.</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              id="wonder7"
+              class="wonder7"
+              onclick="changeImg(7),changeContent(6)"
+              >Petra, Jordan</a
+            >
+          </li>
         </ul>
-        
+      </div>
     </div>
-    </div>
-   
-<script src="wotw.js"></script>
-</body>
+
+    <script src="wotw.js"></script>
+  </body>
 </html>
